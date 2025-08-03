@@ -4,7 +4,7 @@
 
 # MixTeX-Visual
 
-MixTeX-Visual is a visually enhanced fork of MixTeX-LaTeX-OCR. MixTeX-LaTeX-OCR can accurately recognize LaTeX formulas in images and convert them into LaTeX code, while MixTeX-Visual provides it with a more modern and aesthetically pleasing interface. Additionally, considering that some screenshot tools may not be properly recognized, MixTeX-Visual has added a right-click screenshot recognition feature.
+MixTeX-Visual is a visually enhanced fork of [MixTeX-LaTeX-OCR](https://github.com/RQLuo/MixTeX-Latex-OCR). MixTeX-LaTeX-OCR can accurately recognize LaTeX formulas in images and convert them into LaTeX code, while MixTeX-Visual provides it with a more modern and aesthetically pleasing interface. Additionally, considering that some screenshot tools may not be properly recognized, MixTeX-Visual has added a right-click screenshot recognition feature.
 
 Except for the screenshot functionality, MixTeX-Visual only modifies part of the interface appearance and does not make any changes to its core functions. The following is the user manual of MixTeX-LaTeX-OCR.
 
