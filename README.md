@@ -1,4 +1,7 @@
-![](demo/icon.png)
+![](https://raw.githubusercontent.com/beijiushare/MixTeX-Visual/refs/heads/main/demo/icon.png)
+
+[EN](README.md) | [中](READMEzh.md)
+
 # MixTeX-Visual
 
 MixTeX-Visual is a visually enhanced fork of MixTeX-LaTeX-OCR. MixTeX-LaTeX-OCR can accurately recognize LaTeX formulas in images and convert them into LaTeX code, while MixTeX-Visual provides it with a more modern and aesthetically pleasing interface. Additionally, considering that some screenshot tools may not be properly recognized, MixTeX-Visual has added a right-click screenshot recognition feature.
@@ -112,4 +115,4 @@ MixTeX is committed to providing users with the most convenient and efficient mu
 
 **MixTeX-Visual 作者的赞赏码**
 
-![BJ-donate](demo/BJ-donate.png)
+![BJ-donate](https://raw.githubusercontent.com/beijiushare/MixTeX-Visual/refs/heads/main/demo/BJ-donate.png)

@@ -1,5 +1,8 @@
 
-![](demo/icon.png)
+![](https://raw.githubusercontent.com/beijiushare/MixTeX-Visual/refs/heads/main/demo/icon.png)
+
+[中](READMEzh.md) | [EN](README.md)
+
 # MixTeX-Visual
 
 MixTeX-Visual 是 MixTeX-LaTeX-OCR 的视觉增强版分支。 MixTeX-LaTeX-OCR可以 精准识别图片中 LaTeX 公式并转为 latex 代码，MixTeX-Visual 为它提供了更现代化、美观的界面。同时，考虑到部分截图软件可能无法被正确识别到，MixTeX-Visual 还添加了右键截图识别功能。
@@ -83,5 +86,5 @@ MixTeX 致力于为用户提供最便捷、高效的多模态 LaTeX 识别工具
 
 **MixTeX-Visual 作者的赞赏码**
 
-![BJ-donate](demo/BJ-donate.png)
+![BJ-donate](https://raw.githubusercontent.com/beijiushare/MixTeX-Visual/refs/heads/main/demo/BJ-donate.png)
 
