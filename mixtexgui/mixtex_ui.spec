@@ -30,7 +30,6 @@ a = Analysis(
     pathex=[],
     binaries=[],
     datas=[
-        ('donate.png', '.'), 
         ('icon.png', '.'), 
         ('icon_gray.png', '.'),
     ],

@@ -1,6 +1,10 @@
 
 ![](demo/icon.png)
-# MixTeX - 多模态 LaTeX-ocr CPU推理
+# MixTeX-Visual
+
+MixTeX-Visual 是 MixTeX-LaTeX-OCR 的视觉增强版分支。 MixTeX-LaTeX-OCR可以 精准识别图片中 LaTeX 公式并转为 latex 代码，MixTeX-Visual 为它提供了更现代化、美观的界面。同时，考虑到部分截图软件可能无法被正确识别到，MixTeX-Visual 还添加了右键截图识别功能。
+
+除截图外，MixTeX-Visual 只更改了部分界面外观，没有就其主功能进行任何改变。下面沿用 MixTeX-LaTeX-OCR 的使用说明。
 
 MixTeX 是一款多模态 LaTeX 识别小程序，由我们自主研发，能够在本地离线环境下进行高效的 CPU 推理。无论是 LaTeX 公式、表格，还是混合文字，MixTeX 都能轻松识别，并且支持中英文双语处理。得益于强大的技术支持和优化设计，MixTeX 可以在没有 GPU 资源的情况下高效运行，适用于任何 Windows 电脑，极大地方便了用户的使用。
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2406.17148-white)](https://arxiv.org/abs/2406.17148) 
@@ -72,5 +76,12 @@ v1.0.2【已解决】**极端**：个别用户显示器太高级，色彩不是R
 
 MixTeX 致力于为用户提供最便捷、高效的多模态 LaTeX 识别工具，期待您的使用和反馈。如果您对 MixTeX 有任何建议或遇到问题，欢迎随时与我们联系。让我们一起努力，打造最优质的 LaTeX 识别工具！
 
-![image](https://github.com/user-attachments/assets/4981867a-8d6f-4583-b7ab-a95a10ca71ca)
+
+**MixTeX-Latex-OCR 作者的赞赏码**
+
+![donate](https://github.com/user-attachments/assets/9f52a771-ab84-466c-9a7e-629060e251cc)
+
+**MixTeX-Visual 作者的赞赏码**
+
+![BJ-donate](demo/BJ-donate.png)
 

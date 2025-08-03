@@ -1,5 +1,10 @@
 ![](demo/icon.png)
-# MixTeX - Multimodal LaTeX OCR with CPU Inference
+# MixTeX-Visual
+
+MixTeX-Visual is a visually enhanced fork of MixTeX-LaTeX-OCR. MixTeX-LaTeX-OCR can accurately recognize LaTeX formulas in images and convert them into LaTeX code, while MixTeX-Visual provides it with a more modern and aesthetically pleasing interface. Additionally, considering that some screenshot tools may not be properly recognized, MixTeX-Visual has added a right-click screenshot recognition feature.
+
+Except for the screenshot functionality, MixTeX-Visual only modifies part of the interface appearance and does not make any changes to its core functions. The following is the user manual of MixTeX-LaTeX-OCR.
+
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2406.17148-white)](https://arxiv.org/abs/2406.17148) 
 <a href="https://colab.research.google.com/github/RQLuo/MixTeX/blob/main/MixTex_Demo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 [![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Community%20Space-blue)](https://huggingface.co/MixTex/ZhEn-Latex-OCR)
@@ -100,5 +105,11 @@ We appreciate your understanding as we continue to develop and refine MixTeX. Yo
 
 MixTeX is committed to providing users with the most convenient and efficient multimodal LaTeX recognition tool. We look forward to your use and feedback. If you have any suggestions or encounter any issues with MixTeX, please feel free to contact us. Let's work together to create the best LaTeX recognition tool!
 
+
+**MixTeX-Latex-OCR 作者的赞赏码**
+
 ![donate](https://github.com/user-attachments/assets/9f52a771-ab84-466c-9a7e-629060e251cc)
 
+**MixTeX-Visual 作者的赞赏码**
+
+![BJ-donate](demo/BJ-donate.png)
