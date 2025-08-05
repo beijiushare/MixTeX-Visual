@@ -6,7 +6,21 @@
 
 MixTeX-Visual is a visually enhanced fork of [MixTeX-LaTeX-OCR](https://github.com/RQLuo/MixTeX-Latex-OCR). MixTeX-LaTeX-OCR can accurately recognize LaTeX formulas in images and convert them into LaTeX code, while MixTeX-Visual provides it with a more modern and aesthetically pleasing interface. Additionally, considering that some screenshot tools may not be properly recognized, MixTeX-Visual has added a right-click screenshot recognition feature.
 
-Except for the screenshot functionality, MixTeX-Visual only modifies part of the interface appearance and does not make any changes to its core functions. The following is the user manual of MixTeX-LaTeX-OCR.
+**Changes Implemented**
+
+- v1.0.0
+  - Removed the oversized logo.
+  - Added a title bar for easier dragging.
+  - Added a built-in screenshot recognition feature to address potential issues arising from the wide variety of screenshot tools used by different users.
+  - Removed the “Donate” option from the context menu; the appreciation QR code can now only be found in the project repository link under “About”, keeping the focus on screenshot recognition.
+  - Re-ordered the context-menu items, moving “Minimize” higher up.
+  - Replaced the original logo that had jagged edges.
+- v1.0.1
+  - Improved program launch speed.
+
+The following continues to use the MixTeX-LaTeX-OCR user guide.
+
+__The above was translated by AI; refer to the actual Chinese content for accuracy.__
 
 [![Paper](https://img.shields.io/badge/Paper-arxiv.2406.17148-white)](https://arxiv.org/abs/2406.17148) 
 <a href="https://colab.research.google.com/github/RQLuo/MixTeX/blob/main/MixTex_Demo.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
