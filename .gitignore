@@ -4,6 +4,8 @@ __pycache__/
 *$py.class
 
 *.psd
+MixTeX-Visual.zip
+data
 
 # C extensions
 *.so

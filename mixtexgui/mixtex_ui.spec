@@ -77,21 +77,26 @@ a = Analysis(
         'PIL',
         'pystray',
         'numpy',
+
+         # === 添加本地拆分模块 ===
+        'mixtexgui.ui_components',
+        'mixtexgui.model_handler',
+        'mixtexgui.screenshot_handler',
+        'mixtexgui.utils',
     ],
     hookspath=[],
     hooksconfig={},
     runtime_hooks=[],
-    noarchive=False,
+    noarchive=False,  # 保持为False，文件会存储在文件夹中
     optimize=0,
 )
 pyz = PYZ(a.pure)
 
+# 文件夹模式打包 - 生成的程序会包含在一个文件夹中
 exe = EXE(
     pyz,
     a.scripts,
-    a.binaries,
-    a.datas,
-    [],
+    [],  # 移除a.binaries和a.datas，由COLLECT处理
     name='MixTeX',
     debug=False,
     bootloader_ignore_signals=False,
@@ -106,8 +111,20 @@ exe = EXE(
     codesign_identity=None,
     entitlements_file=None,
     icon=['icon.ico'],
-    manifest=manifest_path,  # 添加清单文件路径
+    manifest=manifest_path,  # 保留清单文件配置
     uac_admin=False,
+)
+
+# 添加COLLECT块，用于收集所有文件到输出文件夹
+coll = COLLECT(
+    exe,
+    a.binaries,
+    a.zipfiles,
+    a.datas,
+    strip=False,
+    upx=True,
+    upx_exclude=[],
+    name='MixTeX'  # 文件夹名称
 )
 
 # 清理临时清单文件
